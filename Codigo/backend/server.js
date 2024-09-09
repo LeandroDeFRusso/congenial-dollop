@@ -7,7 +7,7 @@ const port = 3000;
 app.use(express.json());
 const pessoasData = [];
 
-app.use(express.static('front-end'));
+app.use(express.static('frontend'));
 
 const validarCPF = (cpf) => {
     return /^\d{11}$/.test(cpf);
