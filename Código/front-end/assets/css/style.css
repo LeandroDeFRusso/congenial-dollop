@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #0c0ce94d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    width: 300px;
+}
+
+input{
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 85%;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, button, h1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:active{
+    opacity: 0.8;
+}
+
+.solid {
+    background: white;
+    border: none;
+    color: rgb(45, 211, 111);
+}
+
+#message {
+    margin-top: 15px;
+}
+

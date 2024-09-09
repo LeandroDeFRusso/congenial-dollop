@@ -1,0 +1,9 @@
+{
+    "development": {
+      "username": "postgres",
+      "password": "1209200412Le@",
+      "database": "trabalhofullstack-leandro",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    }
+  }
